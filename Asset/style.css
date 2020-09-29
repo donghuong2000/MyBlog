@@ -1,67 +1,26 @@
 .navbar{
-    background-color: rgb(47, 50, 57)  ;
-    font-weight: bold;
-    
+    background-color: rgba(22, 22, 22, 0.884) !important;
 }
-body{
-    font-family: "Open Sans","Droid Arabic Kufi", Arial, sans-serif;
-    
-}
-.nav-item{
-    border-radius: 3px;
+.nav-item a{
+    color: white !important;
+    font-weight: bold !important;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .nav-item:hover{
-    background-color: rgb(27, 188, 155);
-
+    background-color: rgb(30, 187, 121);
+    border-radius: 5px;
 }
-.post{
-    margin-bottom: 30px !important;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    color: #2f3239;
-    font-size: 13px;
-    padding: 20px;
-    border: 1px solid #dedede;
-    background: #FFF;
-    -moz-box-shadow: 0 0 5px #dedede;
-    -webkit-box-shadow: 0 0 5px #dedede;
-    box-shadow: 0 0 5px #dedede;
-    position: relative;
-}
-.post-title, .post-title a{
-    
-    text-decoration-line: none !important ;
-    color: rgb(27, 188, 155) ;
-    font-size: 25px;    
-    font-weight: bold;
-    transition: 0.2s;
-}
-.post-title:hover, .post-title a:hover{
-    color: rgb(13, 17, 16) ;
-    transition: 0.2s;
-
+.avatar{
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 45px;
+    width: 45px;
 }
 .post-title {
-    border-bottom: 2px solid #dedede;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
+    text-decoration-line: none !important;
 }
-.post-img{
-    width: 250px;
-    height: auto;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 0 !important;
-}
-.btn-green{
-    background-color:rgb(27, 188, 155)  ;
-}
-
-.post-meta{
-    font-size: 13px;
-    margin-bottom: 10px;
-}
-.post-content{
-    font-size: 17px;
+.blog-footer{
+    background-color: rgba(22, 22, 22, 0.884) !important;
+    height: 100px;
 }
